@@ -1,0 +1,27 @@
+{
+  "name": "cmsis-no-hal-k64f",
+  "version": "0.1.0",
+  "description": "CMSIS-CORE _WITHOUT_ any peripheral library or HAL for Freescale K64F devices",
+  "keywords": [
+    "HAL",
+    "no-HAL",
+    "cmsis",
+    "Freescale",
+    "k64f"
+  ],
+  "author": "Scott Tsai <scottt.tw@gmail.com>",
+  "repository": {
+    "url": "git@github.com:scottt/cmsis-no-hal-k64f.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/scottt/cmsis-no-hal-k64f",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/BSD-3-Clause",
+      "type": "bsd-3-clause"
+    }
+  ],
+  "dependencies": {
+    "cmsis-no-hal": ">=0.1.0"
+  }
+}

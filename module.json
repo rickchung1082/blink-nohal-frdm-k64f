@@ -1,0 +1,21 @@
+{
+  "name": "blink-nohal-frdm-k64f",
+  "version": "0.1.0",
+  "description": "blink with cmsis-nohal in frdm-k64f",
+  "keywords": [
+    "cmsis-nohal",
+    "frdm-k64f"
+  ],
+  "author": "",
+  "homepage": "https://github.com/rickchung1082/blink-nohal-frdm-k64f",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/BSD-3-Clause",
+      "type": "bsd-3-clause"
+    }
+  ],
+  "dependencies": {
+  	 "cmsis-no-hal": ">=0.1.0"
+  },
+  "bin": "./source"
+}
